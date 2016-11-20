@@ -1,0 +1,191 @@
+newmtl bottom
+illum 4
+Kd 0.31 0.02 0.06
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+Ks 0.00 0.00 0.00
+Ns 0.00
+custom float roughness 0.50
+custom float specular 0.5
+custom float metallic 0.0
+custom float cavity 0.5
+custom float matmask 0.0
+newmtl bottomPin
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+Ks 0.50 1.00 1.00
+Ns 0.00
+custom float roughness 0.50
+custom float specular 0.5
+custom float metallic 0.0
+custom float cavity 0.5
+custom float matmask 0.0
+newmtl coverLeft
+illum 4
+Kd 1.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+Ks 0.50 1.00 1.00
+Ns 0.00
+custom float roughness 0.2
+custom float specular 0.5
+custom float metallic 1.0
+custom float cavity 0.5
+custom float matmask 0.0
+custom float flakesdensity 20.0
+custom string flakesmap ..\Textures\Flakes\metallicflakes.dds
+newmtl coverRight
+illum 4
+Kd 0.69 0.00 0.06
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+Ks 1.00 0.50 0.75
+Ns 0.00
+custom float roughness 0.2
+custom float specular 0.5
+custom float metallic 1.0
+custom float cavity 0.5
+custom float matmask 0.0
+custom float flakesdensity 20.0
+custom string flakesmap ..\Textures\Flakes\uniformCenter.dds
+newmtl insideBody
+illum 4
+Kd 1.00 1.00 1.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+Ks 0.02 0.08 0.18
+Ns 0.00
+custom float roughness 0.50
+custom float specular 0.5
+custom float metallic 0.0
+custom float cavity 0.5
+custom float matmask 0.0
+newmtl insideMid
+illum 4
+Kd 1.00 1.00 1.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+Ks 0.00 0.25 0.50
+Ns 0.00
+custom float roughness 0.50
+custom float specular 0.5
+custom float metallic 0.0
+custom float cavity 0.5
+custom float matmask 0.0
+newmtl insideTop
+illum 4
+Kd 1.00 1.00 1.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+Ks 0.00 0.25 0.50
+Ns 0.00
+custom float roughness 0.50
+custom float specular 0.5
+custom float metallic 0.0
+custom float cavity 0.5
+custom float matmask 0.0
+newmtl legBody
+illum 4
+Kd 1.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+Ks 0.50 1.00 1.00
+Ns 0.00
+custom float roughness 0.20
+custom float specular 0.5
+custom float metallic 1.0
+custom float cavity 0.5
+custom float matmask 0.0
+custom float flakesdensity 20.0
+custom string flakesmap ..\Textures\Flakes\randomCenterPlusOne.dds
+newmtl legBottom
+illum 4
+Kd 0.20 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+Ks 0.50 1.00 1.00
+Ns 0.00
+custom float roughness 0.50
+custom float specular 0.5
+custom float metallic 0.0
+custom float cavity 0.5
+custom float matmask 0.0
+newmtl line
+illum 4
+Kd 0.33 0.16 0.12
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+Ks 0.50 1.00 1.00
+Ns 0.00
+custom float roughness 0.50
+custom float specular 0.5
+custom float metallic 0.0
+custom float cavity 0.5
+custom float matmask 0.0
+newmtl pinBody
+illum 4
+Kd 1.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+Ks 0.00 0.00 0.00
+Ns 0.00
+custom float roughness 0.40
+custom float specular 0.5
+custom float metallic 1.0
+custom float cavity 0.5
+custom float matmask 0.0
+custom float flakesdensity 10.0
+custom string flakesmap ..\Textures\Flakes\randomCenterPlusOne.dds
+newmtl pinCoverTop
+illum 4
+Kd 1.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+Ks 0.50 1.00 1.00
+Ns 0.00
+custom float roughness 0.20
+custom float specular 0.5
+custom float metallic 1.0
+custom float cavity 0.5
+custom float matmask 0.0
+custom float flakesdensity 20.0
+newmtl tag
+illum 4
+Kd 0.29 0.05 0.03
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+Ks 0.00 0.00 0.00
+Ns 0.00
+custom float roughness 0.50
+custom float specular 0.5
+custom float metallic 0.0
+custom float cavity 0.5
+custom float matmask 0.0
+newmtl tagOutter
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+Ks 0.00 0.00 0.00
+Ns 0.00
+custom float roughness 0.50
+custom float specular 0.5
+custom float metallic 0.0
+custom float cavity 0.5
+custom float matmask 0.0

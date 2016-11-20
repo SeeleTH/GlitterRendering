@@ -1,0 +1,330 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Thread">
+      <UniqueIdentifier>{fdddccab-6cb6-4cd2-92eb-dc9b965c8154}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Macro">
+      <UniqueIdentifier>{080d84e2-c2c4-4f3e-9202-cdb9c2c018c3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Template">
+      <UniqueIdentifier>{05bb31c3-bee9-4e5a-8eb0-2c2b307e1b2c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource">
+      <UniqueIdentifier>{4de8b34f-f2cd-4c84-8622-d2f631365ca5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Debug">
+      <UniqueIdentifier>{7e588e74-7ce1-4fb2-90d8-0dff9d6fbc8b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Util">
+      <UniqueIdentifier>{d64fbc55-0ff7-4331-878e-ec7331314b20}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="OS">
+      <UniqueIdentifier>{15d1810a-968c-4e3b-b3c2-3a46efd43e93}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Graphics">
+      <UniqueIdentifier>{fafe2b02-615d-4006-8312-d431f0aeaea3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Actors">
+      <UniqueIdentifier>{be106529-8bf1-40ce-ad26-b3f06763070b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="3rdParty">
+      <UniqueIdentifier>{7fe33314-537f-4fe1-bde7-e0bb43974652}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="3rdParty\tinyxml2">
+      <UniqueIdentifier>{7a7cce63-69fa-4b93-bf3d-d8bd84cc1e53}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="3rdParty\fastdelegate">
+      <UniqueIdentifier>{aa666f93-5f4a-4ab3-9e46-2635a70a23ac}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Graphics\API">
+      <UniqueIdentifier>{8a10bf48-ae2e-43d2-827f-a2f1af5a8081}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Graphics\Buffer">
+      <UniqueIdentifier>{b42b1842-6673-4eb1-8bbe-1ccc3196c2ea}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Graphics\RenderTarget">
+      <UniqueIdentifier>{eea2c1bc-5ada-4f6e-a630-1ac116e9bea6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Graphics\RenderQueue%281st%29">
+      <UniqueIdentifier>{0bfe6f1e-71b8-4d10-8c41-4f56e0b9d089}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Graphics\RenderState">
+      <UniqueIdentifier>{c709132d-4e47-48bf-ba79-88aeba9309c3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Graphics\Shader">
+      <UniqueIdentifier>{5909272a-1051-42b2-bcb4-ad2b002f83f9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core">
+      <UniqueIdentifier>{c1ac570b-999b-4802-8220-3f38f67f15f8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Graphics\Effect">
+      <UniqueIdentifier>{6873643e-0f4a-408f-8ba1-05334d343b87}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\ResLoaders">
+      <UniqueIdentifier>{e332088f-fa37-4a20-b441-b345f34b37a1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\Effects">
+      <UniqueIdentifier>{835d26b6-c82d-428f-bdb3-53a152944e7d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource\Old">
+      <UniqueIdentifier>{1c415f8a-b806-493b-8649-7c2c2c99e74d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Graphics\Model">
+      <UniqueIdentifier>{98198864-4588-476a-877d-71b083f8c4e9}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\Thread\NConcurrentQueue.h">
+      <Filter>Thread</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Thread\NCriticalSection.h">
+      <Filter>Thread</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Thread\NRunnable.h">
+      <Filter>Thread</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Macro\Macro.h">
+      <Filter>Macro</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Template\NNonCopyable.h">
+      <Filter>Template</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Template\NSingleton.h">
+      <Filter>Template</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Debug\NAssert.h">
+      <Filter>Debug</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Util\NString.h">
+      <Filter>Util</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Util\NTime.h">
+      <Filter>Util</Filter>
+    </ClInclude>
+    <ClInclude Include="..\OS\NWin32.h">
+      <Filter>OS</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Actors\NActor.h">
+      <Filter>Actors</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Actors\NActorFactory.h">
+      <Filter>Actors</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Util\NOrientation.h">
+      <Filter>Util</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Actors\NActorManager.h">
+      <Filter>Actors</Filter>
+    </ClInclude>
+    <ClInclude Include="..\3rdParty\tinyxml2\tinyxml2.h">
+      <Filter>3rdParty\tinyxml2</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Actors\NEntity.h">
+      <Filter>Actors</Filter>
+    </ClInclude>
+    <ClInclude Include="..\3rdParty\FastDelegate\FastDelegate.h">
+      <Filter>3rdParty\fastdelegate</Filter>
+    </ClInclude>
+    <ClInclude Include="..\3rdParty\FastDelegate\FastDelegateBind.h">
+      <Filter>3rdParty\fastdelegate</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Graphics\NDX11.h">
+      <Filter>Graphics\API</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Graphics\NDX11Buffer.h">
+      <Filter>Graphics\Buffer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Graphics\NDX11RenderQueue.h">
+      <Filter>Graphics\RenderQueue%281st%29</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Graphics\NRenderQueue.h">
+      <Filter>Graphics\RenderQueue%281st%29</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Graphics\NRenderQueueClient.h">
+      <Filter>Graphics\RenderQueue%281st%29</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Graphics\NRenderQueueItem.h">
+      <Filter>Graphics\RenderQueue%281st%29</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Graphics\NRenderableObject.h">
+      <Filter>Graphics\RenderQueue%281st%29</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Graphics\NRenderManager.h">
+      <Filter>Graphics\RenderQueue%281st%29</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Graphics\NTextureBase.h">
+      <Filter>Graphics\RenderTarget</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Graphics\NTexture2DRes.h">
+      <Filter>Graphics\RenderTarget</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Graphics\NGraphics.h">
+      <Filter>Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Graphics\NDX11RenderTargetManager.h">
+      <Filter>Graphics\RenderTarget</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Graphics\NDX11RenderStateManager.h">
+      <Filter>Graphics\RenderState</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Graphics\NDX11RenderState.h">
+      <Filter>Graphics\RenderState</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Template\NGenericObjectFactory.h">
+      <Filter>Template</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Graphics\NDX11Shader.h">
+      <Filter>Graphics\Shader</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Template\NIDGenerator.h">
+      <Filter>Template</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Graphics\NRenderCmd.h">
+      <Filter>Graphics\RenderQueue%281st%29</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Util\NStackAlloc.h">
+      <Filter>Util</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Graphics\NDX11Effect.h">
+      <Filter>Graphics\Effect</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Core\ResLoaders\NTextureNResLoader.h">
+      <Filter>Core\ResLoaders</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Core\ResLoaders\NShaderNResLoader.h">
+      <Filter>Core\ResLoaders</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Core\Effects\BrdfLutMapNEffect.h">
+      <Filter>Core\Effects</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Resource\NResCache.h">
+      <Filter>Resource\Old</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Resource\NResDir.h">
+      <Filter>Resource\Old</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Resource\NAssetLoader.h">
+      <Filter>Resource</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Resource\NAssetCache.h">
+      <Filter>Resource</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Resource\NAssetPool.h">
+      <Filter>Resource</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Util\NStream.h">
+      <Filter>Util</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Graphics\NTexture2DPool.h">
+      <Filter>Graphics\RenderTarget</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Resource\NAssetGatherer.h">
+      <Filter>Resource</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Resource\NAssetLoadResult.h">
+      <Filter>Resource</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Resource\NAssetProxy.h">
+      <Filter>Resource</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Resource\NAssetStreamer.h">
+      <Filter>Resource</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Graphics\NModelPool.h">
+      <Filter>Graphics\Model</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\Thread\NRunnable.cpp">
+      <Filter>Thread</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Util\NString.cpp">
+      <Filter>Util</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Util\NTime.cpp">
+      <Filter>Util</Filter>
+    </ClCompile>
+    <ClCompile Include="..\OS\NWin32.cpp">
+      <Filter>OS</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Actors\NActor.cpp">
+      <Filter>Actors</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Actors\NActorFactory.cpp">
+      <Filter>Actors</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Actors\NActorManager.cpp">
+      <Filter>Actors</Filter>
+    </ClCompile>
+    <ClCompile Include="..\3rdParty\tinyxml2\tinyxml2.cpp">
+      <Filter>3rdParty\tinyxml2</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Util\NOrientation.cpp">
+      <Filter>Util</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Actors\NEntity.cpp">
+      <Filter>Actors</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Graphics\NDX11.cpp">
+      <Filter>Graphics\API</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Graphics\NDX11Buffer.cpp">
+      <Filter>Graphics\Buffer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Graphics\NDX11RenderQueue.cpp">
+      <Filter>Graphics\RenderQueue%281st%29</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Graphics\NRenderQueue.cpp">
+      <Filter>Graphics\RenderQueue%281st%29</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Graphics\NRenderManager.cpp">
+      <Filter>Graphics\RenderQueue%281st%29</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Graphics\NTexture2DRes.cpp">
+      <Filter>Graphics\RenderTarget</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Graphics\NDX11RenderTargetManager.cpp">
+      <Filter>Graphics\RenderTarget</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Graphics\NRenderCmd.cpp">
+      <Filter>Graphics\RenderQueue%281st%29</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Util\NStackAlloc.cpp">
+      <Filter>Util</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Core\ResLoaders\NTextureNResLoader.cpp">
+      <Filter>Core\ResLoaders</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Core\ResLoaders\NShaderNResLoader.cpp">
+      <Filter>Core\ResLoaders</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Core\Effects\BrdfLutMapNEffect.cpp">
+      <Filter>Core\Effects</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Resource\NResCache.cpp">
+      <Filter>Resource\Old</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Resource\NResDir.cpp">
+      <Filter>Resource\Old</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Util\NStream.cpp">
+      <Filter>Util</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Resource\NAssetCache.cpp">
+      <Filter>Resource</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Graphics\NTexture2DPool.cpp">
+      <Filter>Graphics\RenderTarget</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Resource\NAssetGatherer.cpp">
+      <Filter>Resource</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Resource\NAssetStreamer.cpp">
+      <Filter>Resource</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Graphics\NModelPool.cpp">
+      <Filter>Graphics\Model</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

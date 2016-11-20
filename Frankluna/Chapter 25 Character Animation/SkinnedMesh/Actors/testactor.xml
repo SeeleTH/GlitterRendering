@@ -1,0 +1,6 @@
+<Actor Name = "testActor" PosX = "10" PosY = "10" PosZ = "10">
+	<Components>
+		<BasicGeometryMeshComponent>
+		</BasicGeometryMeshComponent>
+	</Components>
+</Actor>

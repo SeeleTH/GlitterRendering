@@ -1,0 +1,248 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{A94943E4-DC55-4CA3-A76F-18F4F5FD7FCC}</ProjectGuid>
+    <RootNamespace>NBoxLib</RootNamespace>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v120</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v120</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v120</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v120</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ExecutablePath>$(DXSDK_DIR)Utilities\bin\x86;$(ExecutablePath)</ExecutablePath>
+    <IncludePath>$(DXSDK_DIR)Include;$(IncludePath)</IncludePath>
+    <LibraryPath>$(ProjectDir)..\3rdParty\Effects11\Lib\Win32;$(DXSDK_DIR)Lib\x86;$(LibraryPath)</LibraryPath>
+    <OutDir>$(ProjectDir)..\..\Lib\$(PlatformName)\$(Configuration)\</OutDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <OutDir>$(ProjectDir)..\..\Lib\$(PlatformName)\$(Configuration)\</OutDir>
+    <ExecutablePath>$(DXSDK_DIR)Utilities\bin\x86;$(ExecutablePath)</ExecutablePath>
+    <IncludePath>$(DXSDK_DIR)Include;$(IncludePath)</IncludePath>
+    <LibraryPath>$(ProjectDir)..\3rdParty\Effects11\Lib\Win32;$(DXSDK_DIR)Lib\x86;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <OutDir>$(ProjectDir)..\..\Lib\$(PlatformName)\$(Configuration)\</OutDir>
+    <IntDir>$(Configuration)\</IntDir>
+    <ExecutablePath>$(DXSDK_DIR)Utilities\bin\x64;$(ExecutablePath)</ExecutablePath>
+    <IncludePath>$(DXSDK_DIR)Include;$(IncludePath)</IncludePath>
+    <LibraryPath>$(DXSDK_DIR)Lib\x64;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <OutDir>$(ProjectDir)..\..\Lib\$(PlatformName)\$(Configuration)\</OutDir>
+    <IntDir>$(Configuration)\</IntDir>
+    <ExecutablePath>$(DXSDK_DIR)Utilities\bin\x64;$(ExecutablePath)</ExecutablePath>
+    <IncludePath>$(DXSDK_DIR)Include;$(IncludePath)</IncludePath>
+    <LibraryPath>$(DXSDK_DIR)Lib\x64;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+    <Lib>
+      <AdditionalDependencies>d3d11.lib;d3dx11d.lib;D3DCompiler.lib;Effects11d.lib;dxerr.lib;dxgi.lib;dxguid.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+    <Lib>
+      <AdditionalDependencies>d3d11.lib;d3dx11d.lib;D3DCompiler.lib;dxerr.lib;dxgi.lib;dxguid.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+    <Lib>
+      <AdditionalDependencies>d3d11.lib;d3dx11.lib;D3DCompiler.lib;Effects11.lib;dxerr.lib;dxgi.lib;dxguid.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+    <Lib>
+      <AdditionalDependencies>d3d11.lib;d3dx11.lib;D3DCompiler.lib;Effects11.lib;dxerr.lib;dxgi.lib;dxguid.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClInclude Include="..\3rdParty\FastDelegate\FastDelegate.h" />
+    <ClInclude Include="..\3rdParty\FastDelegate\FastDelegateBind.h" />
+    <ClInclude Include="..\3rdParty\tinyxml2\tinyxml2.h" />
+    <ClInclude Include="..\Actors\NActor.h" />
+    <ClInclude Include="..\Actors\NActorFactory.h" />
+    <ClInclude Include="..\Actors\NActorManager.h" />
+    <ClInclude Include="..\Actors\NEntity.h" />
+    <ClInclude Include="..\Core\Effects\BrdfLutMapNEffect.h" />
+    <ClInclude Include="..\Core\ResLoaders\NShaderNResLoader.h" />
+    <ClInclude Include="..\Core\ResLoaders\NTextureNResLoader.h" />
+    <ClInclude Include="..\Debug\NAssert.h" />
+    <ClInclude Include="..\Graphics\NDX11.h" />
+    <ClInclude Include="..\Graphics\NDX11Buffer.h" />
+    <ClInclude Include="..\Graphics\NDX11Effect.h" />
+    <ClInclude Include="..\Graphics\NDX11RenderQueue.h" />
+    <ClInclude Include="..\Graphics\NDX11Shader.h" />
+    <ClInclude Include="..\Graphics\NGraphics.h" />
+    <ClInclude Include="..\Graphics\NModelPool.h" />
+    <ClInclude Include="..\Graphics\NRenderableObject.h" />
+    <ClInclude Include="..\Graphics\NRenderCmd.h" />
+    <ClInclude Include="..\Graphics\NRenderManager.h" />
+    <ClInclude Include="..\Graphics\NRenderQueue.h" />
+    <ClInclude Include="..\Graphics\NRenderQueueClient.h" />
+    <ClInclude Include="..\Graphics\NRenderQueueItem.h" />
+    <ClInclude Include="..\Graphics\NDX11RenderState.h" />
+    <ClInclude Include="..\Graphics\NDX11RenderTargetManager.h" />
+    <ClInclude Include="..\Graphics\NDX11RenderStateManager.h" />
+    <ClInclude Include="..\Graphics\NTexture2DPool.h" />
+    <ClInclude Include="..\Graphics\NTexture2DRes.h" />
+    <ClInclude Include="..\Graphics\NTextureBase.h" />
+    <ClInclude Include="..\Macro\Macro.h" />
+    <ClInclude Include="..\OS\NWin32.h" />
+    <ClInclude Include="..\Resource\NAssetCache.h" />
+    <ClInclude Include="..\Resource\NAssetGatherer.h" />
+    <ClInclude Include="..\Resource\NAssetLoader.h" />
+    <ClInclude Include="..\Resource\NAssetLoadResult.h" />
+    <ClInclude Include="..\Resource\NAssetPool.h" />
+    <ClInclude Include="..\Resource\NAssetProxy.h" />
+    <ClInclude Include="..\Resource\NAssetStreamer.h" />
+    <ClInclude Include="..\Resource\NResCache.h" />
+    <ClInclude Include="..\Resource\NResDir.h" />
+    <ClInclude Include="..\Template\NGenericObjectFactory.h" />
+    <ClInclude Include="..\Template\NIDGenerator.h" />
+    <ClInclude Include="..\Template\NNonCopyable.h" />
+    <ClInclude Include="..\Template\NSingleton.h" />
+    <ClInclude Include="..\Thread\NConcurrentQueue.h" />
+    <ClInclude Include="..\Thread\NCriticalSection.h" />
+    <ClInclude Include="..\Thread\NRunnable.h" />
+    <ClInclude Include="..\Util\NOrientation.h" />
+    <ClInclude Include="..\Util\NStackAlloc.h" />
+    <ClInclude Include="..\Util\NStream.h" />
+    <ClInclude Include="..\Util\NString.h" />
+    <ClInclude Include="..\Util\NTime.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\3rdParty\tinyxml2\tinyxml2.cpp" />
+    <ClCompile Include="..\Actors\NActor.cpp" />
+    <ClCompile Include="..\Actors\NActorFactory.cpp" />
+    <ClCompile Include="..\Actors\NActorManager.cpp" />
+    <ClCompile Include="..\Actors\NEntity.cpp" />
+    <ClCompile Include="..\Core\Effects\BrdfLutMapNEffect.cpp" />
+    <ClCompile Include="..\Core\ResLoaders\NShaderNResLoader.cpp" />
+    <ClCompile Include="..\Core\ResLoaders\NTextureNResLoader.cpp" />
+    <ClCompile Include="..\Graphics\NDX11.cpp" />
+    <ClCompile Include="..\Graphics\NDX11Buffer.cpp" />
+    <ClCompile Include="..\Graphics\NDX11RenderQueue.cpp" />
+    <ClCompile Include="..\Graphics\NDX11RenderTargetManager.cpp" />
+    <ClCompile Include="..\Graphics\NModelPool.cpp" />
+    <ClCompile Include="..\Graphics\NRenderCmd.cpp" />
+    <ClCompile Include="..\Graphics\NRenderManager.cpp" />
+    <ClCompile Include="..\Graphics\NRenderQueue.cpp" />
+    <ClCompile Include="..\Graphics\NTexture2DPool.cpp" />
+    <ClCompile Include="..\Graphics\NTexture2DRes.cpp" />
+    <ClCompile Include="..\OS\NWin32.cpp" />
+    <ClCompile Include="..\Resource\NAssetCache.cpp" />
+    <ClCompile Include="..\Resource\NAssetGatherer.cpp" />
+    <ClCompile Include="..\Resource\NAssetStreamer.cpp" />
+    <ClCompile Include="..\Resource\NResCache.cpp" />
+    <ClCompile Include="..\Resource\NResDir.cpp" />
+    <ClCompile Include="..\Thread\NRunnable.cpp" />
+    <ClCompile Include="..\Util\NOrientation.cpp" />
+    <ClCompile Include="..\Util\NStackAlloc.cpp" />
+    <ClCompile Include="..\Util\NStream.cpp" />
+    <ClCompile Include="..\Util\NString.cpp" />
+    <ClCompile Include="..\Util\NTime.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\3rdParty\DirectXTex\DirectXTex\DirectXTex_Desktop_2013.vcxproj">
+      <Project>{371b9fa9-4c90-4ac6-a123-aced756d6c77}</Project>
+    </ProjectReference>
+    <ProjectReference Include="..\3rdParty\DirectXTK\DirectXTK_Desktop_2013.vcxproj">
+      <Project>{e0b52ae7-e160-4d32-bf3f-910b785e5a8e}</Project>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

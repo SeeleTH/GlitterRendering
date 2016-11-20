@@ -1,0 +1,376 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Common">
+      <UniqueIdentifier>{b6ab6d88-8abb-4652-a3f8-4e4d832a63c0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FX">
+      <UniqueIdentifier>{ef6a8d48-cbca-4c00-a337-4350c283e0ed}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Effects">
+      <UniqueIdentifier>{784da08c-b667-41c6-98f9-06850bea1e9f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Effects">
+      <UniqueIdentifier>{8ab79608-90bb-4537-8c59-9140921b0f9a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FX\NewFX">
+      <UniqueIdentifier>{ebb0bf2c-4080-4177-b274-91c00d61c3b7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Pools">
+      <UniqueIdentifier>{f28f6de6-0898-439e-aea3-71af6d65bb2d}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\Common\Camera.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Common\d3dApp.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Common\d3dUtil.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Common\GameTimer.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Common\GeometryGenerator.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Common\LightHelper.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Common\MathHelper.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Common\Waves.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Common\xnacollision.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="Effects.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="RenderStates.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ShadowMap.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SkinnedMeshDemo.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Sky.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Ssao.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Vertex.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SkinnedData.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="LoadM3d.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MeshGeometry.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Common\TextureMgr.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="SkinnedModel.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="BasicModel.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SkinnedMeshNWin32.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="BasicGeometryMeshComponent.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SkinnedMeshRenderManager.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SkyNDX11Effect.cpp">
+      <Filter>Source Files\Effects</Filter>
+    </ClCompile>
+    <ClCompile Include="NormalNDX11Effect.cpp">
+      <Filter>Source Files\Effects</Filter>
+    </ClCompile>
+    <ClCompile Include="PBRNDX11Effect.cpp">
+      <Filter>Source Files\Effects</Filter>
+    </ClCompile>
+    <ClCompile Include="PreGlitterNDX11Effect.cpp">
+      <Filter>Source Files\Effects</Filter>
+    </ClCompile>
+    <ClCompile Include="NGlitterModelPool.cpp">
+      <Filter>Source Files\Pools</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\Common\Camera.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Common\d3dApp.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Common\d3dUtil.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Common\d3dx11effect.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Common\GameTimer.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Common\GeometryGenerator.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Common\LightHelper.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Common\MathHelper.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Common\Waves.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Common\xnacollision.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="Effects.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="RenderStates.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ShadowMap.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Sky.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Ssao.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Vertex.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MeshGeometry.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SkinnedData.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="LoadM3d.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Common\TextureMgr.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="SkinnedModel.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="BasicModel.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SkinnedMeshNWin32.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SkinnedMeshDemo.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SkinnedMeshRenderManager.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="BasicGeometryMeshComponent.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SkyNDX11Effect.h">
+      <Filter>Header Files\Effects</Filter>
+    </ClInclude>
+    <ClInclude Include="NormalNDX11Effect.h">
+      <Filter>Header Files\Effects</Filter>
+    </ClInclude>
+    <ClInclude Include="PBRNDX11Effect.h">
+      <Filter>Header Files\Effects</Filter>
+    </ClInclude>
+    <ClInclude Include="PreGlitterNDX11Effect.h">
+      <Filter>Header Files\Effects</Filter>
+    </ClInclude>
+    <ClInclude Include="NGlitterModelPool.h">
+      <Filter>Source Files\Pools</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="FX\LightHelper.fx">
+      <Filter>FX</Filter>
+    </None>
+    <None Include="FX\GlitterCommon.hlsli">
+      <Filter>FX\NewFX</Filter>
+    </None>
+    <None Include="FX\constants.hlsli">
+      <Filter>FX\NewFX</Filter>
+    </None>
+    <None Include="FX\random.hlsli">
+      <Filter>FX\NewFX</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="FX\Basic.fx">
+      <Filter>FX</Filter>
+    </CustomBuild>
+    <CustomBuild Include="FX\BuildShadowMap.fx">
+      <Filter>FX</Filter>
+    </CustomBuild>
+    <CustomBuild Include="FX\DebugTexture.fx">
+      <Filter>FX</Filter>
+    </CustomBuild>
+    <CustomBuild Include="FX\NormalMap.fx">
+      <Filter>FX</Filter>
+    </CustomBuild>
+    <CustomBuild Include="FX\Sky.fx">
+      <Filter>FX</Filter>
+    </CustomBuild>
+    <CustomBuild Include="FX\Ssao.fx">
+      <Filter>FX</Filter>
+    </CustomBuild>
+    <CustomBuild Include="FX\SsaoBlur.fx">
+      <Filter>FX</Filter>
+    </CustomBuild>
+    <CustomBuild Include="FX\SsaoNormalDepth.fx">
+      <Filter>FX</Filter>
+    </CustomBuild>
+    <CustomBuild Include="FX\brdfhelper.hlsl">
+      <Filter>FX\NewFX</Filter>
+    </CustomBuild>
+    <CustomBuild Include="FX\DeferredBasic_Common.hlsl">
+      <Filter>FX\NewFX</Filter>
+    </CustomBuild>
+    <CustomBuild Include="FX\DeferredBasicLighting_Common.hlsl">
+      <Filter>FX\NewFX</Filter>
+    </CustomBuild>
+    <CustomBuild Include="FX\random.hlsl" />
+  </ItemGroup>
+  <ItemGroup>
+    <FxCompile Include="FX\NormalMapShadow_vs.hlsl">
+      <Filter>FX\NewFX</Filter>
+    </FxCompile>
+    <FxCompile Include="FX\NormalMapShadow_ps.hlsl">
+      <Filter>FX\NewFX</Filter>
+    </FxCompile>
+    <FxCompile Include="FX\NormalMapSkinned_vs.hlsl">
+      <Filter>FX\NewFX</Filter>
+    </FxCompile>
+    <FxCompile Include="FX\NormalMap_vs.hlsl">
+      <Filter>FX\NewFX</Filter>
+    </FxCompile>
+    <FxCompile Include="FX\NormalMap_ps.hlsl">
+      <Filter>FX\NewFX</Filter>
+    </FxCompile>
+    <FxCompile Include="FX\Sky_ps.hlsl">
+      <Filter>FX\NewFX</Filter>
+    </FxCompile>
+    <FxCompile Include="FX\Sky_vs.hlsl">
+      <Filter>FX\NewFX</Filter>
+    </FxCompile>
+    <FxCompile Include="FX\DeferredBasic_vs.hlsl">
+      <Filter>FX\NewFX</Filter>
+    </FxCompile>
+    <FxCompile Include="FX\DeferredBasic_ps.hlsl">
+      <Filter>FX\NewFX</Filter>
+    </FxCompile>
+    <FxCompile Include="FX\GlitterCount_ps.hlsl">
+      <Filter>FX\NewFX</Filter>
+    </FxCompile>
+    <FxCompile Include="FX\GlitterCount_vs.hlsl">
+      <Filter>FX\NewFX</Filter>
+    </FxCompile>
+    <FxCompile Include="FX\GlitterCount_gs.hlsl">
+      <Filter>FX\NewFX</Filter>
+    </FxCompile>
+    <FxCompile Include="FX\BRDFLUT_cs.hlsl">
+      <Filter>FX\NewFX</Filter>
+    </FxCompile>
+    <FxCompile Include="FX\BRDFEnvPreFilter_cs.hlsl">
+      <Filter>FX\NewFX</Filter>
+    </FxCompile>
+    <FxCompile Include="FX\DeferredBasicDirLight_vs.hlsl">
+      <Filter>FX\NewFX</Filter>
+    </FxCompile>
+    <FxCompile Include="FX\DeferredBasicDirLight_ps.hlsl">
+      <Filter>FX\NewFX</Filter>
+    </FxCompile>
+    <FxCompile Include="FX\DeferredBasicDepthOnly_vs.hlsl">
+      <Filter>FX\NewFX</Filter>
+    </FxCompile>
+    <FxCompile Include="FX\DeferredBasicDepthOnly_ps.hlsl">
+      <Filter>FX\NewFX</Filter>
+    </FxCompile>
+    <FxCompile Include="FX\AmbientBRDF_vs.hlsl">
+      <Filter>FX\NewFX</Filter>
+    </FxCompile>
+    <FxCompile Include="FX\AmbientBRDF_ps.hlsl">
+      <Filter>FX\NewFX</Filter>
+    </FxCompile>
+    <FxCompile Include="FX\DeferredBasicPostProc_vs.hlsl">
+      <Filter>FX\NewFX</Filter>
+    </FxCompile>
+    <FxCompile Include="FX\CopyRenderTarget_ps.hlsl">
+      <Filter>FX\NewFX</Filter>
+    </FxCompile>
+    <FxCompile Include="FX\DeferredBasicSky_ps.hlsl">
+      <Filter>FX\NewFX</Filter>
+    </FxCompile>
+    <FxCompile Include="FX\DeferredBasicSky_vs.hlsl">
+      <Filter>FX\NewFX</Filter>
+    </FxCompile>
+    <FxCompile Include="NormalMapToNDFMap_cs.hlsl">
+      <Filter>FX\NewFX</Filter>
+    </FxCompile>
+    <FxCompile Include="FX\GlitterPostProc_ps.hlsl">
+      <Filter>FX\NewFX</Filter>
+    </FxCompile>
+    <FxCompile Include="FX\PrefilterFlakesMap_cs.hlsl">
+      <Filter>FX\NewFX</Filter>
+    </FxCompile>
+    <FxCompile Include="FX\GenFlakesMapFromNormalMap_cs.hlsl">
+      <Filter>FX\NewFX</Filter>
+    </FxCompile>
+    <FxCompile Include="FX\ProGenNDFMap_cs.hlsl">
+      <Filter>FX\NewFX</Filter>
+    </FxCompile>
+    <FxCompile Include="FX\SSAOPostProc_vs.hlsl">
+      <Filter>FX\NewFX</Filter>
+    </FxCompile>
+    <FxCompile Include="FX\SSAOPostProc_ps.hlsl">
+      <Filter>FX\NewFX</Filter>
+    </FxCompile>
+    <FxCompile Include="FX\BlurTex_ps.hlsl">
+      <Filter>FX\NewFX</Filter>
+    </FxCompile>
+    <FxCompile Include="FX\CompositePostProc_ps.hlsl">
+      <Filter>FX\NewFX</Filter>
+    </FxCompile>
+    <FxCompile Include="FX\GenFlakeMapFromRandom_cs.hlsl">
+      <Filter>FX\NewFX</Filter>
+    </FxCompile>
+  </ItemGroup>
+</Project>

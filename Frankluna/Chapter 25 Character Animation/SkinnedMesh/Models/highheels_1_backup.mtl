@@ -1,0 +1,222 @@
+newmtl highheels_1:rFootSG1
+illum 4
+Kd 1.0 0.766 0.336
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+Ks 0.50 1.00 1.00
+Ns 0.00
+custom float roughness 0.20
+custom float specular 0.5
+custom float metallic 1.0
+custom float cavity 0.5
+custom float matmask 0.0
+custom float flakesdensity 50.0
+custom string flakesmap Textures\floorflake.dds
+newmtl highheels_1:rFootSG3
+illum 4
+Kd 1.0 0.766 0.336
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+Ks 0.02 0.08 0.18
+Ns 0.00
+custom float roughness 0.20
+custom float specular 0.5
+custom float metallic 1.0
+custom float cavity 0.5
+custom float matmask 0.0
+custom float flakesdensity 50.0
+custom string flakesmap Textures\floorflake.dds
+
+newmtl highheels_1:rFootSG5
+illum 4
+Kd 1.0 0.766 0.336
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+Ks 0.07 0.17 0.02
+Ns 0.00
+custom float roughness 0.20
+custom float specular 0.5
+custom float metallic 1.0
+custom float cavity 0.5
+custom float matmask 0.0
+custom float flakesdensity 50.0
+custom string flakesmap Textures\floorflake.dds
+
+newmtl highheels_1:rFootSG7
+illum 4
+Kd 1.0 0.766 0.336
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+Ks 0.50 1.00 1.00
+Ns 0.00
+custom float roughness 0.20
+custom float specular 0.5
+custom float metallic 1.0
+custom float cavity 0.5
+custom float matmask 0.0
+custom float flakesdensity 50.0
+custom string flakesmap Textures\floorflake.dds
+
+newmtl highheels_1:rFootSG9
+illum 4
+Kd 1.0 0.766 0.336
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+Ks 1.00 0.50 0.75
+Ns 0.00
+custom float roughness 0.20
+custom float specular 0.5
+custom float metallic 1.0
+custom float cavity 0.5
+custom float matmask 0.0
+custom float flakesdensity 50.0
+custom string flakesmap Textures\floorflake.dds
+
+newmtl highheels_1:rFootSG11
+illum 4
+Kd 1.0 0.766 0.336
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+Ks 0.00 0.25 0.50
+Ns 0.00
+custom float roughness 0.20
+custom float specular 0.5
+custom float metallic 1.0
+custom float cavity 0.5
+custom float matmask 0.0
+custom float flakesdensity 50.0
+custom string flakesmap Textures\floorflake.dds
+
+newmtl highheels_1:rFootSG13
+illum 4
+Kd 1.0 0.766 0.336
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+Ks 0.50 1.00 1.00
+Ns 0.00
+custom float roughness 0.20
+custom float specular 0.5
+custom float metallic 1.0
+custom float cavity 0.5
+custom float matmask 0.0
+custom float flakesdensity 50.0
+custom string flakesmap Textures\floorflake.dds
+
+newmtl highheels_1:rFootSG15
+illum 4
+Kd 1.0 0.766 0.336
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+Ks 0.00 0.25 0.50
+Ns 0.00
+custom float roughness 0.20
+custom float specular 0.5
+custom float metallic 1.0
+custom float cavity 0.5
+custom float matmask 0.0
+custom float flakesdensity 50.0
+custom string flakesmap Textures\floorflake.dds
+
+newmtl highheels_1:rFootSG17
+illum 4
+Kd 1.0 0.766 0.336
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+Ks 0.50 1.00 1.00
+Ns 0.00
+custom float roughness 0.20
+custom float specular 0.5
+custom float metallic 1.0
+custom float cavity 0.5
+custom float matmask 0.0
+custom float flakesdensity 50.0
+custom string flakesmap Textures\floorflake.dds
+
+newmtl highheels_1:rFootSG19
+illum 4
+Kd 1.0 0.766 0.336
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+Ks 0.00 0.25 0.50
+Ns 0.00
+custom float roughness 0.20
+custom float specular 0.5
+custom float metallic 1.0
+custom float cavity 0.5
+custom float matmask 0.0
+custom float flakesdensity 50.0
+custom string flakesmap Textures\floorflake.dds
+
+newmtl highheels_1:rFootSG21
+illum 4
+Kd 0.18 0.18 0.18
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+Ks 0.50 1.00 1.00
+Ns 0.00
+custom float roughness 0.20
+custom float specular 0.5
+custom float metallic 1.0
+custom float cavity 0.5
+custom float matmask 0.0
+custom float flakesdensity 50.0
+custom string flakesmap Textures\floorflake.dds
+
+newmtl highheels_1:rFootSG23
+illum 4
+Kd 1.0 0.766 0.336
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+Ks 0.50 1.00 1.00
+Ns 0.00
+custom float roughness 0.20
+custom float specular 0.5
+custom float metallic 1.0
+custom float cavity 0.5
+custom float matmask 0.0
+custom float flakesdensity 50.0
+custom string flakesmap Textures\floorflake.dds
+
+newmtl highheels_1:rFootSG25
+illum 4
+Kd 1.0 0.766 0.336
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+Ks 0.07 0.17 0.02
+Ns 0.00
+custom float roughness 0.20
+custom float specular 0.5
+custom float metallic 1.0
+custom float cavity 0.5
+custom float matmask 0.0
+custom float flakesdensity 50.0
+custom string flakesmap Textures\floorflake.dds
+
+newmtl highheels_1:rFootSG27
+illum 4
+Kd 1.0 0.766 0.336
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+Ks 0.50 1.00 1.00
+Ns 0.00
+custom float roughness 0.20
+custom float specular 0.5
+custom float metallic 1.0
+custom float cavity 0.5
+custom float matmask 0.0
+custom float flakesdensity 50.0
+custom string flakesmap Textures\floorflake.dds
